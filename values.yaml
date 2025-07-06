@@ -8,4 +8,4 @@ service:
   type: ClusterIP
   port: 80
   targetPort: 5678
-echoText: "Hi John :) This is a hello message from Argo CD via Helm"
+echoText: "Hi Gil :) This is a hello message from Argo CD via Helm"
