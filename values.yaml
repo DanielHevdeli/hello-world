@@ -1,0 +1,11 @@
+namespace: hello
+replicaCount: 1
+image:
+  repository: hashicorp/http-echo
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 5678
+echoText: "Hi Daniel, This is a hello message from Argo CD via Helm"
